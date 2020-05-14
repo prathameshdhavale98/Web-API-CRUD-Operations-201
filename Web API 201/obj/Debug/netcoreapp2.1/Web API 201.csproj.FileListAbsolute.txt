@@ -1,0 +1,16 @@
+C:\Users\M1056141\source\repos\Web API 201\Web API 201\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\M1056141\source\repos\Web API 201\Web API 201\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\M1056141\source\repos\Web API 201\Web API 201\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\M1056141\source\repos\Web API 201\Web API 201\bin\Debug\netcoreapp2.1\Web API 201.deps.json
+C:\Users\M1056141\source\repos\Web API 201\Web API 201\bin\Debug\netcoreapp2.1\Web API 201.runtimeconfig.json
+C:\Users\M1056141\source\repos\Web API 201\Web API 201\bin\Debug\netcoreapp2.1\Web API 201.runtimeconfig.dev.json
+C:\Users\M1056141\source\repos\Web API 201\Web API 201\bin\Debug\netcoreapp2.1\Web API 201.dll
+C:\Users\M1056141\source\repos\Web API 201\Web API 201\obj\Debug\netcoreapp2.1\Web API 201.csprojAssemblyReference.cache
+C:\Users\M1056141\source\repos\Web API 201\Web API 201\obj\Debug\netcoreapp2.1\Web API 201.RazorAssemblyInfo.cache
+C:\Users\M1056141\source\repos\Web API 201\Web API 201\obj\Debug\netcoreapp2.1\Web API 201.RazorAssemblyInfo.cs
+C:\Users\M1056141\source\repos\Web API 201\Web API 201\obj\Debug\netcoreapp2.1\Web API 201.AssemblyInfoInputs.cache
+C:\Users\M1056141\source\repos\Web API 201\Web API 201\obj\Debug\netcoreapp2.1\Web API 201.AssemblyInfo.cs
+C:\Users\M1056141\source\repos\Web API 201\Web API 201\obj\Debug\netcoreapp2.1\Web API 201.RazorTargetAssemblyInfo.cache
+C:\Users\M1056141\source\repos\Web API 201\Web API 201\bin\Debug\netcoreapp2.1\Web API 201.pdb
+C:\Users\M1056141\source\repos\Web API 201\Web API 201\obj\Debug\netcoreapp2.1\Web API 201.dll
+C:\Users\M1056141\source\repos\Web API 201\Web API 201\obj\Debug\netcoreapp2.1\Web API 201.pdb

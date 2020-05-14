@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<results>
+  <modules>
+    <module name="webapi201.dll" path="webapi201.dll" id="144E9CA64B5AFA45A00F30710F890D3C01000000" block_coverage="40.35" line_coverage="48.72" blocks_covered="138" blocks_not_covered="204" lines_covered="57" lines_partially_covered="1" lines_not_covered="59">
+      <functions>
+        <function id="8812" token="0x6000019" name="EmployeeData(WebAPI201.Domain.Entities.EmployeeManagementContext)" namespace="WebAPI201.DataAccess.Service" type_name="EmployeeData" block_coverage="100.00" line_coverage="100.00" blocks_covered="2" blocks_not_covered="0" lines_covered="4" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="1" covered="yes" start_line="15" start_column="9" end_line="15" end_column="63" />
+            <range source_id="1" covered="yes" start_line="16" start_column="9" end_line="16" end_column="10" />
+            <range source_id="1" covered="yes" start_line="17" start_column="13" end_line="17" end_column="32" />
+            <range source_id="1" covered="yes" start_line="18" start_column="9" end_line="18" end_column="10" />
+          </ranges>
+        </function>
+        <function id="9142" token="0x6000022" name="EmployeeController(WebAPI201.Business.Repository.IEmployeeBusiness)" namespace="WebAPI201.Controllers" type_name="EmployeeController" block_coverage="100.00" line_coverage="100.00" blocks_covered="2" blocks_not_covered="0" lines_covered="4" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="0" covered="yes" start_line="17" start_column="9" end_line="17" end_column="70" />
+            <range source_id="0" covered="yes" start_line="18" start_column="9" end_line="18" end_column="10" />
+            <range source_id="0" covered="yes" start_line="19" start_column="13" end_line="19" end_column="50" />
+            <range source_id="0" covered="yes" start_line="20" start_column="9" end_line="20" end_column="10" />
+          </ranges>
+        </function>
+        <function id="9312" token="0x6000025" name="AddEmployee(WebAPI201.Domain.Entities.Employees)" namespace="WebAPI201.Controllers" type_name="EmployeeController" block_coverage="62.50" line_coverage="62.50" blocks_covered="5" blocks_not_covered="3" lines_covered="5" lines_partially_covered="0" lines_not_covered="3">
+          <ranges>
+            <range source_id="0" covered="yes" start_line="63" start_column="9" end_line="63" end_column="10" />
+            <range source_id="0" covered="yes" start_line="65" start_column="13" end_line="65" end_column="14" />
+            <range source_id="0" covered="yes" start_line="66" start_column="17" end_line="66" end_column="57" />
+            <range source_id="0" covered="yes" start_line="67" start_column="17" end_line="67" end_column="65" />
+            <range source_id="0" covered="no" start_line="69" start_column="13" end_line="69" end_column="33" />
+            <range source_id="0" covered="no" start_line="70" start_column="13" end_line="70" end_column="14" />
+            <range source_id="0" covered="no" start_line="71" start_column="17" end_line="71" end_column="80" />
+            <range source_id="0" covered="yes" start_line="73" start_column="9" end_line="73" end_column="10" />
+          </ranges>
+        </function>
+        <function id="9474" token="0x6000027" name="EmployeeBusiness(WebAPI201.DataAccess.Repository.IEmployeeData)" namespace="WebAPI201.Business.Service" type_name="EmployeeBusiness" block_coverage="100.00" line_coverage="100.00" blocks_covered="2" blocks_not_covered="0" lines_covered="4" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="2" covered="yes" start_line="15" start_column="9" end_line="15" end_column="60" />
+            <range source_id="2" covered="yes" start_line="16" start_column="9" end_line="16" end_column="10" />
+            <range source_id="2" covered="yes" start_line="17" start_column="13" end_line="17" end_column="42" />
+            <range source_id="2" covered="yes" start_line="18" start_column="9" end_line="18" end_column="10" />
+          </ranges>
+        </function>
+        <function id="10232" token="0x6000038" name="MoveNext()" namespace="WebAPI201.DataAccess.Service" type_name="EmployeeData.&lt;GetEmployeeById&gt;d__2" block_coverage="71.88" line_coverage="61.54" blocks_covered="23" blocks_not_covered="9" lines_covered="8" lines_partially_covered="0" lines_not_covered="5">
+          <ranges>
+            <range source_id="1" covered="yes" start_line="20" start_column="9" end_line="20" end_column="10" />
+            <range source_id="1" covered="yes" start_line="23" start_column="13" end_line="23" end_column="14" />
+            <range source_id="1" covered="yes" start_line="24" start_column="17" end_line="24" end_column="77" />
+            <range source_id="1" covered="yes" start_line="25" start_column="17" end_line="25" end_column="38" />
+            <range source_id="1" covered="no" start_line="26" start_column="17" end_line="26" end_column="18" />
+            <range source_id="1" covered="no" start_line="27" start_column="21" end_line="27" end_column="33" />
+            <range source_id="1" covered="yes" start_line="30" start_column="17" end_line="30" end_column="18" />
+            <range source_id="1" covered="yes" start_line="31" start_column="17" end_line="31" end_column="134" />
+            <range source_id="1" covered="yes" start_line="32" start_column="17" end_line="32" end_column="34" />
+            <range source_id="1" covered="no" start_line="35" start_column="13" end_line="35" end_column="35" />
+            <range source_id="1" covered="no" start_line="36" start_column="13" end_line="36" end_column="14" />
+            <range source_id="1" covered="no" start_line="37" start_column="17" end_line="37" end_column="25" />
+            <range source_id="1" covered="yes" start_line="39" start_column="9" end_line="39" end_column="10" />
+          </ranges>
+        </function>
+        <function id="10640" token="0x600003b" name="MoveNext()" namespace="WebAPI201.DataAccess.Service" type_name="EmployeeData.&lt;GetEmployeesDetails&gt;d__3" block_coverage="0.00" line_coverage="0.00" blocks_covered="0" blocks_not_covered="25" lines_covered="0" lines_partially_covered="0" lines_not_covered="7">
+          <ranges>
+            <range source_id="1" covered="no" start_line="42" start_column="9" end_line="42" end_column="10" />
+            <range source_id="1" covered="no" start_line="44" start_column="13" end_line="44" end_column="14" />
+            <range source_id="1" covered="no" start_line="45" start_column="17" end_line="45" end_column="63" />
+            <range source_id="1" covered="no" start_line="47" start_column="13" end_line="47" end_column="33" />
+            <range source_id="1" covered="no" start_line="48" start_column="13" end_line="48" end_column="14" />
+            <range source_id="1" covered="no" start_line="49" start_column="17" end_line="49" end_column="26" />
+            <range source_id="1" covered="no" start_line="51" start_column="9" end_line="51" end_column="10" />
+          </ranges>
+        </function>
+        <function id="10916" token="0x600003e" name="MoveNext()" namespace="WebAPI201.DataAccess.Service" type_name="EmployeeData.&lt;AddEmployee&gt;d__4" block_coverage="0.00" line_coverage="0.00" blocks_covered="0" blocks_not_covered="36" lines_covered="0" lines_partially_covered="0" lines_not_covered="9">
+          <ranges>
+            <range source_id="1" covered="no" start_line="54" start_column="9" end_line="54" end_column="10" />
+            <range source_id="1" covered="no" start_line="56" start_column="13" end_line="56" end_column="14" />
+            <range source_id="1" covered="no" start_line="57" start_column="17" end_line="57" end_column="61" />
+            <range source_id="1" covered="no" start_line="58" start_column="17" end_line="58" end_column="51" />
+            <range source_id="1" covered="no" start_line="59" start_column="17" end_line="59" end_column="53" />
+            <range source_id="1" covered="no" start_line="61" start_column="13" end_line="61" end_column="33" />
+            <range source_id="1" covered="no" start_line="62" start_column="13" end_line="62" end_column="14" />
+            <range source_id="1" covered="no" start_line="63" start_column="17" end_line="63" end_column="26" />
+            <range source_id="1" covered="no" start_line="65" start_column="9" end_line="65" end_column="10" />
+          </ranges>
+        </function>
+        <function id="11356" token="0x6000042" name="MoveNext()" namespace="WebAPI201.DataAccess.Service" type_name="EmployeeData.&lt;DeleteEmployee&gt;d__5" block_coverage="0.00" line_coverage="0.00" blocks_covered="0" blocks_not_covered="71" lines_covered="0" lines_partially_covered="0" lines_not_covered="23">
+          <ranges>
+            <range source_id="1" covered="no" start_line="67" start_column="9" end_line="67" end_column="10" />
+            <range source_id="1" covered="no" start_line="69" start_column="13" end_line="69" end_column="36" />
+            <range source_id="1" covered="no" start_line="71" start_column="13" end_line="71" end_column="14" />
+            <range source_id="1" covered="no" start_line="72" start_column="17" end_line="72" end_column="105" />
+            <range source_id="1" covered="no" start_line="73" start_column="17" end_line="73" end_column="102" />
+            <range source_id="1" covered="no" start_line="74" start_column="17" end_line="74" end_column="24" />
+            <range source_id="1" covered="no" start_line="74" start_column="26" end_line="74" end_column="39" />
+            <range source_id="1" covered="no" start_line="74" start_column="40" end_line="74" end_column="42" />
+            <range source_id="1" covered="no" start_line="74" start_column="43" end_line="74" end_column="55" />
+            <range source_id="1" covered="no" start_line="75" start_column="17" end_line="75" end_column="18" />
+            <range source_id="1" covered="no" start_line="76" start_column="21" end_line="76" end_column="56" />
+            <range source_id="1" covered="no" start_line="77" start_column="21" end_line="77" end_column="22" />
+            <range source_id="1" covered="no" start_line="78" start_column="25" end_line="78" end_column="42" />
+            <range source_id="1" covered="no" start_line="79" start_column="25" end_line="79" end_column="31" />
+            <range source_id="1" covered="no" start_line="81" start_column="17" end_line="81" end_column="18" />
+            <range source_id="1" covered="no" start_line="82" start_column="17" end_line="82" end_column="31" />
+            <range source_id="1" covered="no" start_line="83" start_column="17" end_line="83" end_column="18" />
+            <range source_id="1" covered="no" start_line="84" start_column="21" end_line="84" end_column="57" />
+            <range source_id="1" covered="no" start_line="85" start_column="21" end_line="85" end_column="44" />
+            <range source_id="1" covered="no" start_line="86" start_column="21" end_line="86" end_column="60" />
+            <range source_id="1" covered="no" start_line="89" start_column="17" end_line="89" end_column="18" />
+            <range source_id="1" covered="no" start_line="90" start_column="21" end_line="90" end_column="49" />
+            <range source_id="1" covered="no" start_line="93" start_column="13" end_line="93" end_column="33" />
+            <range source_id="1" covered="no" start_line="94" start_column="13" end_line="94" end_column="14" />
+            <range source_id="1" covered="no" start_line="95" start_column="17" end_line="95" end_column="26" />
+            <range source_id="1" covered="no" start_line="97" start_column="9" end_line="97" end_column="10" />
+          </ranges>
+        </function>
+        <function id="12184" token="0x6000045" name="MoveNext()" namespace="WebAPI201.Controllers" type_name="EmployeeController.&lt;GetEmployeeById&gt;d__2" block_coverage="62.50" line_coverage="58.33" blocks_covered="20" blocks_not_covered="12" lines_covered="7" lines_partially_covered="0" lines_not_covered="5">
+          <ranges>
+            <range source_id="0" covered="yes" start_line="25" start_column="9" end_line="25" end_column="10" />
+            <range source_id="0" covered="yes" start_line="27" start_column="13" end_line="27" end_column="14" />
+            <range source_id="0" covered="yes" start_line="29" start_column="17" end_line="29" end_column="73" />
+            <range source_id="0" covered="yes" start_line="30" start_column="17" end_line="30" end_column="36" />
+            <range source_id="0" covered="no" start_line="31" start_column="17" end_line="31" end_column="18" />
+            <range source_id="0" covered="no" start_line="32" start_column="21" end_line="32" end_column="72" />
+            <range source_id="0" covered="yes" start_line="35" start_column="17" end_line="35" end_column="18" />
+            <range source_id="0" covered="yes" start_line="36" start_column="21" end_line="36" end_column="124" />
+            <range source_id="0" covered="no" start_line="40" start_column="13" end_line="40" end_column="33" />
+            <range source_id="0" covered="no" start_line="41" start_column="13" end_line="41" end_column="14" />
+            <range source_id="0" covered="no" start_line="42" start_column="17" end_line="42" end_column="80" />
+            <range source_id="0" covered="yes" start_line="44" start_column="9" end_line="44" end_column="10" />
+          </ranges>
+        </function>
+        <function id="12596" token="0x6000048" name="MoveNext()" namespace="WebAPI201.Controllers" type_name="EmployeeController.&lt;GetEmployeesDetails&gt;d__3" block_coverage="62.96" line_coverage="57.14" blocks_covered="17" blocks_not_covered="10" lines_covered="4" lines_partially_covered="0" lines_not_covered="3">
+          <ranges>
+            <range source_id="0" covered="yes" start_line="49" start_column="9" end_line="49" end_column="10" />
+            <range source_id="0" covered="yes" start_line="51" start_column="13" end_line="51" end_column="14" />
+            <range source_id="0" covered="yes" start_line="52" start_column="17" end_line="52" end_column="74" />
+            <range source_id="0" covered="no" start_line="54" start_column="13" end_line="54" end_column="32" />
+            <range source_id="0" covered="no" start_line="55" start_column="13" end_line="55" end_column="14" />
+            <range source_id="0" covered="no" start_line="56" start_column="17" end_line="56" end_column="79" />
+            <range source_id="0" covered="yes" start_line="58" start_column="9" end_line="58" end_column="10" />
+          </ranges>
+        </function>
+        <function id="12892" token="0x600004b" name="MoveNext()" namespace="WebAPI201.Controllers" type_name="EmployeeController.&lt;DeleteEmployee&gt;d__5" block_coverage="57.58" line_coverage="58.33" blocks_covered="19" blocks_not_covered="14" lines_covered="7" lines_partially_covered="1" lines_not_covered="4">
+          <ranges>
+            <range source_id="0" covered="yes" start_line="78" start_column="9" end_line="78" end_column="10" />
+            <range source_id="0" covered="yes" start_line="80" start_column="13" end_line="80" end_column="14" />
+            <range source_id="0" covered="yes" start_line="81" start_column="17" end_line="81" end_column="73" />
+            <range source_id="0" covered="partial" start_line="82" start_column="17" end_line="82" end_column="57" />
+            <range source_id="0" covered="no" start_line="83" start_column="17" end_line="83" end_column="18" />
+            <range source_id="0" covered="no" start_line="84" start_column="21" end_line="84" end_column="124" />
+            <range source_id="0" covered="no" start_line="87" start_column="17" end_line="87" end_column="18" />
+            <range source_id="0" covered="no" start_line="88" start_column="21" end_line="88" end_column="71" />
+            <range source_id="0" covered="yes" start_line="91" start_column="13" end_line="91" end_column="33" />
+            <range source_id="0" covered="yes" start_line="92" start_column="13" end_line="92" end_column="14" />
+            <range source_id="0" covered="yes" start_line="93" start_column="17" end_line="93" end_column="80" />
+            <range source_id="0" covered="yes" start_line="95" start_column="9" end_line="95" end_column="10" />
+          </ranges>
+        </function>
+        <function id="13308" token="0x600004e" name="MoveNext()" namespace="WebAPI201.Business.Service" type_name="EmployeeBusiness.&lt;GetEmployeeById&gt;d__2" block_coverage="66.67" line_coverage="100.00" blocks_covered="12" blocks_not_covered="6" lines_covered="3" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="2" covered="yes" start_line="21" start_column="9" end_line="21" end_column="10" />
+            <range source_id="2" covered="yes" start_line="22" start_column="13" end_line="22" end_column="60" />
+            <range source_id="2" covered="yes" start_line="23" start_column="9" end_line="23" end_column="10" />
+          </ranges>
+        </function>
+        <function id="13536" token="0x6000051" name="MoveNext()" namespace="WebAPI201.Business.Service" type_name="EmployeeBusiness.&lt;GetEmployeesDetails&gt;d__3" block_coverage="66.67" line_coverage="100.00" blocks_covered="12" blocks_not_covered="6" lines_covered="3" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="2" covered="yes" start_line="26" start_column="9" end_line="26" end_column="10" />
+            <range source_id="2" covered="yes" start_line="27" start_column="13" end_line="27" end_column="62" />
+            <range source_id="2" covered="yes" start_line="28" start_column="9" end_line="28" end_column="10" />
+          </ranges>
+        </function>
+        <function id="13756" token="0x6000054" name="MoveNext()" namespace="WebAPI201.Business.Service" type_name="EmployeeBusiness.&lt;AddEmployee&gt;d__4" block_coverage="66.67" line_coverage="100.00" blocks_covered="12" blocks_not_covered="6" lines_covered="4" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="2" covered="yes" start_line="31" start_column="9" end_line="31" end_column="10" />
+            <range source_id="2" covered="yes" start_line="32" start_column="13" end_line="32" end_column="72" />
+            <range source_id="2" covered="yes" start_line="33" start_column="13" end_line="33" end_column="28" />
+            <range source_id="2" covered="yes" start_line="34" start_column="9" end_line="34" end_column="10" />
+          </ranges>
+        </function>
+        <function id="14004" token="0x6000057" name="MoveNext()" namespace="WebAPI201.Business.Service" type_name="EmployeeBusiness.&lt;DeleteEmployee&gt;d__5" block_coverage="66.67" line_coverage="100.00" blocks_covered="12" blocks_not_covered="6" lines_covered="4" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="2" covered="yes" start_line="37" start_column="9" end_line="37" end_column="10" />
+            <range source_id="2" covered="yes" start_line="38" start_column="13" end_line="38" end_column="69" />
+            <range source_id="2" covered="yes" start_line="39" start_column="13" end_line="39" end_column="28" />
+            <range source_id="2" covered="yes" start_line="40" start_column="9" end_line="40" end_column="10" />
+          </ranges>
+        </function>
+      </functions>
+      <source_files>
+        <source_file id="0" path="C:\Users\M1056141\source\repos\Web API 201\Web API 201\Controllers\EmployeeController.cs" checksum_type="unknown">
+        </source_file>
+        <source_file id="1" path="C:\Users\M1056141\source\repos\Web API 201\Web API 201\DataAccess\Service\EmployeeData.cs" checksum_type="unknown">
+        </source_file>
+        <source_file id="2" path="C:\Users\M1056141\source\repos\Web API 201\Web API 201\Business\Service\EmployeeBusiness.cs" checksum_type="unknown">
+        </source_file>
+      </source_files>
+    </module>
+    <module name="testingwholeapi.dll" path="testingwholeapi.dll" id="37DF41584768D34497450ADAE206898501000000" block_coverage="83.63" line_coverage="100.00" blocks_covered="235" blocks_not_covered="46" lines_covered="125" lines_partially_covered="0" lines_not_covered="0">
+      <functions>
+        <function id="8572" token="0x6000008" name="ControllerTest()" namespace="TestingWholeAPI" type_name="ControllerTest" block_coverage="100.00" line_coverage="100.00" blocks_covered="5" blocks_not_covered="0" lines_covered="5" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="2" covered="yes" start_line="18" start_column="9" end_line="18" end_column="95" />
+            <range source_id="2" covered="yes" start_line="21" start_column="9" end_line="21" end_column="32" />
+            <range source_id="2" covered="yes" start_line="22" start_column="9" end_line="22" end_column="10" />
+            <range source_id="2" covered="yes" start_line="23" start_column="13" end_line="23" end_column="80" />
+            <range source_id="2" covered="yes" start_line="24" start_column="9" end_line="24" end_column="10" />
+          </ranges>
+        </function>
+        <function id="9016" token="0x6000012" name="MoveNext()" namespace="TestingWholeAPI" type_name="BusinessLayerTest.&lt;GetEmployeesDetails_Happy&gt;d__0" block_coverage="80.65" line_coverage="100.00" blocks_covered="25" blocks_not_covered="6" lines_covered="12" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="0" covered="yes" start_line="18" start_column="9" end_line="18" end_column="10" />
+            <range source_id="0" covered="yes" start_line="19" start_column="13" end_line="19" end_column="66" />
+            <range source_id="0" covered="yes" start_line="21" start_column="13" end_line="25" end_column="15" />
+            <range source_id="0" covered="yes" start_line="26" start_column="13" end_line="26" end_column="81" />
+            <range source_id="0" covered="yes" start_line="27" start_column="13" end_line="27" end_column="83" />
+            <range source_id="0" covered="yes" start_line="29" start_column="13" end_line="29" end_column="74" />
+            <range source_id="0" covered="yes" start_line="31" start_column="13" end_line="31" end_column="38" />
+            <range source_id="0" covered="yes" start_line="32" start_column="9" end_line="32" end_column="10" />
+          </ranges>
+        </function>
+        <function id="9400" token="0x6000015" name="MoveNext()" namespace="TestingWholeAPI" type_name="BusinessLayerTest.&lt;GetEmployeesById_Happy&gt;d__1" block_coverage="83.78" line_coverage="100.00" blocks_covered="31" blocks_not_covered="6" lines_covered="14" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="0" covered="yes" start_line="35" start_column="9" end_line="35" end_column="10" />
+            <range source_id="0" covered="yes" start_line="38" start_column="13" end_line="38" end_column="66" />
+            <range source_id="0" covered="yes" start_line="41" start_column="13" end_line="41" end_column="50" />
+            <range source_id="0" covered="yes" start_line="42" start_column="13" end_line="42" end_column="14" />
+            <range source_id="0" covered="yes" start_line="43" start_column="17" end_line="43" end_column="41" />
+            <range source_id="0" covered="yes" start_line="44" start_column="17" end_line="44" end_column="54" />
+            <range source_id="0" covered="yes" start_line="45" start_column="17" end_line="45" end_column="42" />
+            <range source_id="0" covered="yes" start_line="46" start_column="17" end_line="46" end_column="51" />
+            <range source_id="0" covered="yes" start_line="49" start_column="13" end_line="49" end_column="14" />
+            <range source_id="0" covered="yes" start_line="50" start_column="13" end_line="50" end_column="74" />
+            <range source_id="0" covered="yes" start_line="52" start_column="13" end_line="52" end_column="79" />
+            <range source_id="0" covered="yes" start_line="54" start_column="13" end_line="54" end_column="67" />
+            <range source_id="0" covered="yes" start_line="57" start_column="13" end_line="57" end_column="38" />
+            <range source_id="0" covered="yes" start_line="58" start_column="9" end_line="58" end_column="10" />
+          </ranges>
+        </function>
+        <function id="9884" token="0x6000019" name="MoveNext()" namespace="TestingWholeAPI" type_name="BusinessLayerTest.&lt;AddEmployee_ShouldAddEmployee_Happy&gt;d__2" block_coverage="85.00" line_coverage="100.00" blocks_covered="34" blocks_not_covered="6" lines_covered="44" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="0" covered="yes" start_line="61" start_column="9" end_line="61" end_column="10" />
+            <range source_id="0" covered="yes" start_line="62" start_column="13" end_line="62" end_column="66" />
+            <range source_id="0" covered="yes" start_line="64" start_column="13" end_line="70" end_column="15" />
+            <range source_id="0" covered="yes" start_line="71" start_column="13" end_line="71" end_column="76" />
+            <range source_id="0" covered="yes" start_line="72" start_column="13" end_line="72" end_column="83" />
+            <range source_id="0" covered="yes" start_line="74" start_column="13" end_line="74" end_column="74" />
+            <range source_id="0" covered="yes" start_line="76" start_column="13" end_line="76" end_column="46" />
+            <range source_id="0" covered="yes" start_line="77" start_column="9" end_line="77" end_column="10" />
+          </ranges>
+        </function>
+        <function id="10392" token="0x600001d" name="MoveNext()" namespace="TestingWholeAPI" type_name="BusinessLayerTest.&lt;DeleteEmployee_ShouldDeleteEmployee_Happy&gt;d__3" block_coverage="84.62" line_coverage="100.00" blocks_covered="33" blocks_not_covered="6" lines_covered="9" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="0" covered="yes" start_line="81" start_column="9" end_line="81" end_column="10" />
+            <range source_id="0" covered="yes" start_line="82" start_column="13" end_line="82" end_column="66" />
+            <range source_id="0" covered="yes" start_line="84" start_column="13" end_line="84" end_column="50" />
+            <range source_id="0" covered="yes" start_line="85" start_column="13" end_line="85" end_column="37" />
+            <range source_id="0" covered="yes" start_line="86" start_column="13" end_line="86" end_column="92" />
+            <range source_id="0" covered="yes" start_line="87" start_column="13" end_line="87" end_column="83" />
+            <range source_id="0" covered="yes" start_line="89" start_column="13" end_line="89" end_column="88" />
+            <range source_id="0" covered="yes" start_line="91" start_column="13" end_line="91" end_column="48" />
+            <range source_id="0" covered="yes" start_line="92" start_column="9" end_line="92" end_column="10" />
+          </ranges>
+        </function>
+        <function id="10888" token="0x6000020" name="MoveNext()" namespace="TestingWholeAPI" type_name="ControllerTest.&lt;GetEmployeeById_ShouldGetEmployeeById&gt;d__3" block_coverage="68.42" line_coverage="100.00" blocks_covered="13" blocks_not_covered="6" lines_covered="4" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="2" covered="yes" start_line="28" start_column="9" end_line="28" end_column="10" />
+            <range source_id="2" covered="yes" start_line="29" start_column="13" end_line="29" end_column="69" />
+            <range source_id="2" covered="yes" start_line="30" start_column="13" end_line="30" end_column="44" />
+            <range source_id="2" covered="yes" start_line="32" start_column="9" end_line="32" end_column="10" />
+          </ranges>
+        </function>
+        <function id="11132" token="0x6000023" name="MoveNext()" namespace="TestingWholeAPI" type_name="ControllerTest.&lt;GetEmployeeDetails_ShouldGetEmployeeDetails&gt;d__4" block_coverage="68.42" line_coverage="100.00" blocks_covered="13" blocks_not_covered="6" lines_covered="4" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="2" covered="yes" start_line="35" start_column="9" end_line="35" end_column="10" />
+            <range source_id="2" covered="yes" start_line="36" start_column="13" end_line="36" end_column="71" />
+            <range source_id="2" covered="yes" start_line="37" start_column="13" end_line="37" end_column="44" />
+            <range source_id="2" covered="yes" start_line="39" start_column="9" end_line="39" end_column="10" />
+          </ranges>
+        </function>
+        <function id="11376" token="0x6000026" name="MoveNext()" namespace="TestingWholeAPI" type_name="ControllerTest.&lt;AddEmployee_ShouldAddEmployee&gt;d__5" block_coverage="86.67" line_coverage="100.00" blocks_covered="13" blocks_not_covered="2" lines_covered="11" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="2" covered="yes" start_line="42" start_column="9" end_line="42" end_column="10" />
+            <range source_id="2" covered="yes" start_line="43" start_column="13" end_line="43" end_column="50" />
+            <range source_id="2" covered="yes" start_line="44" start_column="13" end_line="44" end_column="14" />
+            <range source_id="2" covered="yes" start_line="45" start_column="17" end_line="45" end_column="41" />
+            <range source_id="2" covered="yes" start_line="46" start_column="17" end_line="46" end_column="54" />
+            <range source_id="2" covered="yes" start_line="47" start_column="17" end_line="47" end_column="42" />
+            <range source_id="2" covered="yes" start_line="48" start_column="17" end_line="48" end_column="51" />
+            <range source_id="2" covered="yes" start_line="51" start_column="13" end_line="51" end_column="14" />
+            <range source_id="2" covered="yes" start_line="52" start_column="13" end_line="52" end_column="67" />
+            <range source_id="2" covered="yes" start_line="53" start_column="13" end_line="53" end_column="44" />
+            <range source_id="2" covered="yes" start_line="55" start_column="9" end_line="55" end_column="10" />
+          </ranges>
+        </function>
+        <function id="11588" token="0x6000029" name="MoveNext()" namespace="TestingWholeAPI" type_name="ControllerTest.&lt;DeleteEmployee_ShouldDeleteEmployee&gt;d__6" block_coverage="87.50" line_coverage="100.00" blocks_covered="14" blocks_not_covered="2" lines_covered="11" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="2" covered="yes" start_line="58" start_column="9" end_line="58" end_column="10" />
+            <range source_id="2" covered="yes" start_line="59" start_column="13" end_line="59" end_column="50" />
+            <range source_id="2" covered="yes" start_line="60" start_column="13" end_line="60" end_column="14" />
+            <range source_id="2" covered="yes" start_line="61" start_column="17" end_line="61" end_column="41" />
+            <range source_id="2" covered="yes" start_line="62" start_column="17" end_line="62" end_column="54" />
+            <range source_id="2" covered="yes" start_line="63" start_column="17" end_line="63" end_column="42" />
+            <range source_id="2" covered="yes" start_line="64" start_column="17" end_line="64" end_column="51" />
+            <range source_id="2" covered="yes" start_line="67" start_column="13" end_line="67" end_column="14" />
+            <range source_id="2" covered="yes" start_line="68" start_column="13" end_line="68" end_column="80" />
+            <range source_id="2" covered="yes" start_line="69" start_column="13" end_line="69" end_column="44" />
+            <range source_id="2" covered="yes" start_line="71" start_column="9" end_line="71" end_column="10" />
+          </ranges>
+        </function>
+        <function id="11828" token="0x600002e" name="MoveNext()" namespace="TestingWholeAPI" type_name="DataLayerTest.&lt;GetEmployeeById_ShouldGetEmployeeById_Happy&gt;d__0" block_coverage="90.00" line_coverage="100.00" blocks_covered="54" blocks_not_covered="6" lines_covered="11" lines_partially_covered="0" lines_not_covered="0">
+          <ranges>
+            <range source_id="1" covered="yes" start_line="18" start_column="9" end_line="18" end_column="10" />
+            <range source_id="1" covered="yes" start_line="19" start_column="13" end_line="19" end_column="50" />
+            <range source_id="1" covered="yes" start_line="21" start_column="13" end_line="21" end_column="33" />
+            <range source_id="1" covered="yes" start_line="22" start_column="13" end_line="22" end_column="56" />
+            <range source_id="1" covered="yes" start_line="23" start_column="13" end_line="23" end_column="97" />
+            <range source_id="1" covered="yes" start_line="25" start_column="13" end_line="25" end_column="69" />
+            <range source_id="1" covered="yes" start_line="26" start_column="13" end_line="26" end_column="73" />
+            <range source_id="1" covered="yes" start_line="27" start_column="13" end_line="27" end_column="64" />
+            <range source_id="1" covered="yes" start_line="29" start_column="13" end_line="29" end_column="56" />
+            <range source_id="1" covered="yes" start_line="30" start_column="13" end_line="30" end_column="77" />
+            <range source_id="1" covered="yes" start_line="31" start_column="9" end_line="31" end_column="10" />
+          </ranges>
+        </function>
+      </functions>
+      <source_files>
+        <source_file id="0" path="C:\Users\M1056141\source\repos\Web API 201\TestingWholeAPI\BusinessLayerTest.cs" checksum_type="unknown">
+        </source_file>
+        <source_file id="1" path="C:\Users\M1056141\source\repos\Web API 201\TestingWholeAPI\DataLayerTest.cs" checksum_type="unknown">
+        </source_file>
+        <source_file id="2" path="C:\Users\M1056141\source\repos\Web API 201\TestingWholeAPI\ControllerTest.cs" checksum_type="unknown">
+        </source_file>
+      </source_files>
+    </module>
+  </modules>
+</results>
